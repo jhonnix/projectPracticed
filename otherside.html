@@ -5,116 +5,51 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>jhonn's Portfolio</title>
+    <link rel="stylesheet" href="otherside.css" type="text/css">
+    <title>HomePage</title>
 </head>
-
-
-
-<style>
-    body{
-        background-color: lightskyblue;
-    }
-    h1{
-        background-color: crimson;
-        color: wheat;
-    }
-    h4{
-        color: blue;
-    }
-
-    tbody{
-        text-align: center;
-    }
-</style>
-
 <body>
-<h1>welcome to my portfolio</h1>
+<header>
+    <nav>
 
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Contact</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Terms & condition</a></li>
+        </ul>
+        <button onclose="close()">Logout</button>
+    </nav>
+</header>
 
-<p>
-<table>
-    <tr id="thead">
-        <td>complition</td>
-        <td>javascript</td>
-        <td>HTML</td>
-        <td>CSS</td>
-    </tr>
-    <tr id="tfoot">
-        <td>completed√</td>
-        <td><a href="https://app.pluralsight.com/player?course=804837c6-ac3c-4698-aebd-bc15f629e64e&name=f6fc246e-c209-4a62-8ebf-e48b47138aa9">javaScript:getting started</a></td>
-        <td><a href="https://app.pluralsight.com/player?course=cf24be02-4875-4adb-a0dd-497e0235f47f&name=f31b9389-ff4d-48cf-846f-4d39432b8559">HTML:Fundamentals</a></td>
-        <td><a href="https://app.pluralsight.com/course-player?clipId=545e174c-87dc-448c-b21a-1fbdb4690593">CSS:fundamentals</a></td>
-    </tr>
-</table>
-</p>
-
-<style>
-    table{
-        border-collapse: collapse;
-        background-color: chocolate;
-        color: white;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    td{
-        border: 1px solid black;
-        padding: 10px 20px;
-    }
-</style>
-<div class="crf-footer--links">
-    <div>My works</div>
-    <ul>
-        <li><a href="file:///C:/Users/acer/AppData/Roaming/JetBrains/WebStorm2023.2/scratches/galaxy.html">galaxyCodeCSS</a></li>
-        <li><a href="file:///C:/Users/acer/AppData/Roaming/JetBrains/WebStorm2023.2/scratches/Notes%20and%20Learning%20onJavaScript/HTML%20practice.html">code</a></li>
-    </ul>
-</div>
-<style>
-    .board {
-        perspective: 1000px;
-        width: 200px;
-        height: 200px;
-        position: relative;
-        transform-style: preserve-3d;
-        transition: transform 0.5s;
-        cursor: pointer;
-        margin: 100px;
-    }
-
-    .board:hover {
-        transform: rotateY(180deg);
-    }
-
-    .face {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 24px;
-        font-weight: bold;
-        color: white;
-        background-color: red;
-        border: 1px solid darkblue;
-    }
-
-    .back {
-        transform: rotateY(180deg);
-    }
-</style>
-
-<div class="board">
-    <div class="face"><img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/387659715_1066516801443306_8000031510888027058_n.png?stp=dst-png_p206x206&_nc_cat=110&ccb=1-7&_nc_sid=aee45a&_nc_ohc=NlJp6AtQqk8AX9fn51J&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT-ZOP4mVBco4ClH1bC0SHdX4XMlrjetPLySUhOrYDKZQ&oe=654E6A2F" alt=""></div>
-    <div class="face back"><img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/370265637_644862860966569_670339813508828971_n.png?stp=dst-png_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=GoLo9PF-nlEAX_4sm3Q&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTbWOB8H_aR4wVepTOPelIy-tNgkbedTioqS4OmiCGiEQ&oe=654E6087"></div>
-</div>
-<p>
-    <strong>Click my name to see my resume</strong>
-<h4><li><a href="https://scontent.xx.fbcdn.net/v/t1.15752-9/385485946_1661639667580756_1432116209743465472_n.jpg?stp=dst-jpg_p160x160&_nc_cat=109&ccb=1-7&_nc_sid=aee45a&_nc_ohc=Y1QMKDj6AEQAX-g_i3X&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdREHN0A2sIiJ2veCN8BmVxoCCiNAMOAQawOQRyVoTqjrw&oe=6544F4F5">&copy jhonn peter III D capuayn</a></li></h4>
-</p>
-
-
-
+<main>
+    <center><img class="image" src="Photos&images/Sparkle.png" alt="Photo"></center>
+    <h1>Modules in Pluralsight that i have Completed.</h1>
+    <table>
+        <tr>
+            <td>completion</td>
+            <td>javascript</td>
+            <td>HTML</td>
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <td>completed√</td>
+            <td><a href="https://app.pluralsight.com/player?course=804837c6-ac3c-4698-aebd-bc15f629e64e&name=f6fc246e-c209-4a62-8ebf-e48b47138aa9">javaScript:getting started</a></td>
+            <td><a href="https://app.pluralsight.com/player?course=cf24be02-4875-4adb-a0dd-497e0235f47f&name=f31b9389-ff4d-48cf-846f-4d39432b8559">HTML:Fundamentals</a></td>
+            <td><a href="https://app.pluralsight.com/course-player?clipId=545e174c-87dc-448c-b21a-1fbdb4690593">CSS:fundamentals</a></td>
+        </tr>
+    </table>
+</main>
+<footer>
+    <nav>
+        <ul>
+            <li><a>Home</a></li>
+            <li><a>Contact</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Terms & condition</a></li>
+        </ul>
+    </nav>
+</footer>
 
 </body>
 </html>
